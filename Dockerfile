@@ -1,6 +1,6 @@
 FROM hashicorp/terraform:light
 
-ARG acme_provider_version=v0.6.0
+ARG acme_provider_version=v1.0.0
 
 RUN apk add --update bash jq
 
